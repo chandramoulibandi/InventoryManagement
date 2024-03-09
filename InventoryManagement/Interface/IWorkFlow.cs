@@ -8,6 +8,7 @@ namespace InventoryManagement.Interface
 {
     internal interface IWorkFlow
     {
+        int MainMenu();
         void UpdateNodes();
         void ShowInventorySummary();
     }

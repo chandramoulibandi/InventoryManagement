@@ -22,4 +22,6 @@ public partial class ProductBundle
     public virtual ProductBundle? ParentBundle { get; set; }
 
     public virtual ICollection<ProductSparePart> ProductSpareParts { get; set; } = new List<ProductSparePart>();
+
+    public virtual ICollection<ProductSubBundle> ProductSubBundles { get; set; } = new List<ProductSubBundle>();
 }

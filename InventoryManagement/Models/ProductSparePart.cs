@@ -15,5 +15,9 @@ public partial class ProductSparePart
 
     public int? BundleId { get; set; }
 
+    public int? SubBundleId { get; set; }
+
     public virtual ProductBundle? Bundle { get; set; }
+
+    public virtual ProductSubBundle? SubBundle { get; set; }
 }
